@@ -5,9 +5,9 @@ import react from '@vitejs/plugin-react-swc'
 export default defineConfig({
   plugins: [react()],
   build: {
-    outDir: 'build'
+    outDir: 'dist'
   },
-  // base: '/web-basic/',
+  base: '/web-basic/',
   resolve: {
     alias: {
       '@components': '/src/components',
