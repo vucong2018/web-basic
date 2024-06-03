@@ -7,6 +7,7 @@ export default defineConfig({
   build: {
     outDir: 'build'
   },
+  base: '/web-basic/',
   resolve: {
     alias: {
       '@components': '/src/components',
