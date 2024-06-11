@@ -1,6 +1,6 @@
-import { Suspense, lazy } from 'react'
-import './App.css'
-import { Route, Routes } from 'react-router-dom'
+import { Suspense, lazy } from 'react';
+import './App.css';
+import { Route, Routes } from 'react-router-dom';
 import { DemoLayout } from '@pages/DemoLayout';
 // pages
 const Login = lazy(() => import('@pages/LoginPage'));
@@ -21,7 +21,7 @@ const App = () => {
       </Suspense>
 
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;

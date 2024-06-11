@@ -8,3 +8,7 @@
   font-weight: 400;
 
 }
+
+.class-ket-hop {
+  @apply bg-red-400 md:bg-slate-500 text-white;
+}

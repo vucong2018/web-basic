@@ -61,7 +61,7 @@ export const DemoLayout = () => {
         }
     ];
     return (
-        <div >
+        <div className='class-ket-hop'>
             <CustomTable colunms={columns} data={data}></CustomTable>
         </div>
     )

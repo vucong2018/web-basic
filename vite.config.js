@@ -23,6 +23,7 @@ export default defineConfig({
       '@widgets': '/src/widgets',
       '@contexts': '/src/contexts',
       '@constants': '/src/constants',
+      '@redux': '/src/redux'
     }
   },
 })
